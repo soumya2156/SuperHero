@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    
+    font-size: 110%;
+}
+.characters{
+    margin-bottom: 49vh;
+}
+.characters h3{
+    width: max-content;  
+}
+.card-body a:hover{
+    cursor:crosshair;
+    color: red;
+}
+
+

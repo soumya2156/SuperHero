@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/54671.jpg');
+    background-size: cover;
+    opacity: 0.9; 
+    color: white; 
+    display: flex;
+    flex-direction: column;
+}
+/* div{
+    border: 2px solid red;
+} */
+.navbar{
+    position: relative;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+.navbar a{
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 2vw;
+}
+.navbar a:hover{
+    color: darkcyan;
+    transition: all linear 0.5s;
+}
+.searchbar{
+    position: relative;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.searchbar input{
+    text-align: center;
+    height: 5vh;
+    width: 40vw;
+    border-radius: 20px;
+    border: none;
+}
+.searchbar button{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 1vw;
+    border: none;
+    cursor: pointer;
+}
+.searchbar button:hover{
+    color: white;
+    background-color: black;    
+    transition: all linear 0.3s;
+}
+#searchResult{
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+section h3{
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    color: black;
+    font-size: 120%;
+}
+
+.character-card{
+    width:  270px;
+    height: 30vh;
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 15px;    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+    
+}
+.poster{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 15vw;
+    height: 20vh;
+}
+
+.card-body a{
+    margin-top: -1vh;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-size: 110%;
+    font-weight: 800;
+}
+
+.card-body a:hover{
+    cursor:crosshair;
+    color: red;
+}
