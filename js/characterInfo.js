@@ -35,5 +35,3 @@ fetch(url).then((response) => {
     console.log(error);
 });
 
-//ading comics character
-
