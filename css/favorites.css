@@ -18,7 +18,7 @@ section{
     width: max-content;  
 }
 .card-body a:hover{
-    cursor:crosshair;
+    cursor: pointer;
     color: red;
 }
 

@@ -112,6 +112,6 @@ section h3{
 }
 
 .card-body a:hover{
-    cursor:crosshair;
+    cursor:pointer;
     color: red;
 }
